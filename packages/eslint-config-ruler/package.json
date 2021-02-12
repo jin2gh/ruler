@@ -1,0 +1,8 @@
+{
+  "name": "eslint-config-ruler",
+  "version": "0.0.1",
+  "description": "eslint-config",
+  "main": "index.js",
+  "author": "JIN",
+  "license": "MIT"
+}
