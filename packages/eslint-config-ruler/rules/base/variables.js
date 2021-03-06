@@ -1,6 +1,7 @@
 /**
  * env 预设的环境，使用这些环境中的全局变量不会被 no-undef 报错
  * @see https://eslint.org/docs/user-guide/configuring/language-options#specifying-environments
+ * @see http://eslint.org/docs/rules/#variables
  */
 
 module.exports = {
@@ -38,10 +39,24 @@ module.exports = {
     // 禁止使用 undefined
     'no-undefined': 'off',
 
-    // 声明的变量必须被使用，https://eslint.org/docs/rules/no-unused-vars#disallow-unused-variables-no-unused-vars
-    'no-unused-vars': ['error', { vars: 'all', args: 'after-used', ignoreRestSiblings: true }],
+    // 声明的变量必须被使用
+    'no-unused-vars': [
+      'error',
+      {
+        vars: 'all',
+        args: 'after-used',
+        ignoreRestSiblings: true
+      }
+    ],
 
     // 禁止声明前就使用变量
-    'no-use-before-define': ['error', { functions: false, classes: false, variables: false }],
+    'no-use-before-define': [
+      'error',
+      {
+        functions: false,
+        classes: false,
+        variables: false
+      }
+    ],
   },
-};
+}
