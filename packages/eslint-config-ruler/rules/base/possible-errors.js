@@ -22,7 +22,7 @@ module.exports = {
     // 禁止在条件表达式中使用赋值语句
     'no-cond-assign': ['error', 'always'],
 
-    // 生产环境禁止使用 console
+    // 生产环境禁止使用 console
     'no-console': 'warn',
 
     // 禁止在条件表达式中使用常量
@@ -37,7 +37,8 @@ module.exports = {
     // 禁止函数参数出现重复命名的参数
     'no-dupe-args': 'error',
 
-    // 禁止 if-else-if 链中的重复条件，ESLint 6.7.0
+    // 禁止 if-else-if 链中的重复条件
+    // ESLint@6.7.0
     'no-dupe-else-if': 'error',
 
     // 禁止对象出现重复命名的 key
@@ -55,7 +56,7 @@ module.exports = {
     // 禁止对 catch 子句的入参重新赋值
     'no-ex-assign': 'error',
 
-    // 避免不必要的布尔类型转换
+    // 避免不必要的布尔类型转换
     'no-extra-boolean-cast': 'error',
 
     // 禁止不必要的小括号
@@ -77,7 +78,8 @@ module.exports = {
     // 禁止对函数声明重新赋值
     'no-func-assign': 'error',
 
-    // 禁止对导入的绑定重新赋值，ESLint 6.4.0
+    // 禁止对导入的绑定重新赋值
+    // ESLint@6.4.0
     // airbnb-base 是 off
     'no-import-assign': 'error',
 
@@ -90,7 +92,8 @@ module.exports = {
     // 禁止不规则的空白符
     'no-irregular-whitespace': 'error',
 
-    // 禁止使用丢失精度的数字，ESLint 7.1.0
+    // 禁止使用丢失精度的数字
+    // ESLint@7.1.0
     'no-loss-of-precision': 'error',
 
     // 禁止在正则的字符集语法 [] 中使用由多个字符点构成的字符
@@ -99,7 +102,8 @@ module.exports = {
     // 禁止将全局对象 Math、JSON、Reflect 当作函数进行调用
     'no-obj-calls': 'error',
 
-    // 禁止从 Promise 执行器函数返回值，ESLint 7.3.0
+    // 禁止从 Promise 执行器函数返回值
+    // ESLint@7.3.0
     'no-promise-executor-return': 'error',
 
     // 禁止直接调用 Object.prototypes 上的方法
@@ -108,7 +112,8 @@ module.exports = {
     // 禁止在正则表达式中出现多个连续空格
     'no-regex-spaces': 'error',
 
-    // 禁止从 setter 返回值，ESLint 6.7.0
+    // 禁止从 setter 返回值
+    // ESLint@6.7.0
     'no-setter-return': 'off',
 
     // 禁用稀疏数组，如 var items = [,,]
@@ -129,7 +134,8 @@ module.exports = {
     // 禁止对关系运算符的左操作数使用否定操作符
     'no-unsafe-negation': 'error',
 
-    // 禁止在使用 undefined 的上下文中使用可选链，ESLint 7.15.0
+    // 禁止在使用 undefined 的上下文中使用可选链
+    // ESLint@7.15.0
     'no-unsafe-optional-chaining': [
       'error',
       {
@@ -137,7 +143,8 @@ module.exports = {
       }
     ],
 
-    // 禁止在正则表达式中使用无效的反向引用，ESLint 7.0.0-alpha.0
+    // 禁止在正则表达式中使用无效的反向引用
+    // ESLint@7.0.0-alpha.0
     'no-useless-backreference': 'error',
 
     // 避免因使用 await 或 yield 可能导致的竞态条件的赋值

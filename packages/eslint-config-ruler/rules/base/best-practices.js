@@ -32,7 +32,7 @@ module.exports = {
     'default-case': ['error', { commentPattern: '^no default$' }],
 
     // 强制 default 子句在 switch 语句的最后
-    // version@7.0.0-alpha.0
+    // ESLint@7.0.0-alpha.0
     'default-case-last': 'off',
 
     // 要求将函数默认参数放在最后，ESLint 6.4.0
@@ -169,7 +169,7 @@ module.exports = {
     'no-new-wrappers': 'error',
 
     // 禁止 \8和 \9 转义字符串中的序列
-    // version@7.14.0
+    // ESLint@7.14.0
     'no-nonoctal-decimal-escape': 'error',
 
     // 禁用八进制字面量
@@ -318,14 +318,14 @@ module.exports = {
     'no-with': 'error',
 
     // 建议在正则表达式中使用命名捕获组
-    // version@5.15.0
+    // ESLint@5.15.0
     'prefer-named-capture-group': 'off',
 
     // 要求使用 Error 对象作为 Promise 拒绝的原因
     'prefer-promise-reject-errors': ['warn', { allowEmptyReject: true }],
 
     // 禁止使用RegExp构造函数以支持正则表达式文字
-    // version@6.4.0
+    // ESLint@6.4.0
     'prefer-regex-literals': ['error', { disallowRedundantWrapping: true }],
 
     // 要求 parseInt() 方法时总是带上基数
