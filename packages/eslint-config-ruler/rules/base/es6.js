@@ -2,7 +2,7 @@
  * @see https://eslint.org/docs/rules/#ecmascript-6
  */
 
- module.exports = {
+module.exports = {
   rules: {
     // 箭头函数是否在函数体中使用大括号
     'arrow-body-style': [

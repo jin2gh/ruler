@@ -2,7 +2,7 @@
  * @see https://github.com/benmosher/eslint-plugin-import
  */
 
- module.exports = {
+module.exports = {
   env: {
     es6: true
   },
